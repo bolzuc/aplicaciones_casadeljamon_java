@@ -1,0 +1,32 @@
+# La Casa del Jamón - Home Banking
+
+## Descripción
+Este proyecto es un simulador interactivo de Home Banking para "La Casa del Jamón". Permite realizar operaciones de cuenta, simular compras y ver el historial de movimientos.
+
+## Estructura del Proyecto
+- **index.html**: Documento HTML principal.
+- **css/style.css**: Archivo CSS para estilos.
+- **js/app.js**: Manejo de eventos y carga inicial.
+- **js/banking.js**: Lógica de operaciones bancarias.
+- **js/transacciones.js**: Funciones de transacciones.
+- **js/conceptos.json**: Base de datos simulada con conceptos de movimientos.
+- **imagenes/**: Carpeta con imágenes de productos y logo.
+
+## Instrucciones
+1. Clona el repositorio o descarga el archivo ZIP.
+2. Abre `index.html` en tu navegador.
+3. Realiza operaciones de cuenta y simula compras.
+
+## Tecnologías Utilizadas
+- HTML
+- CSS
+- JavaScript
+- Fetch API
+- SweetAlert2 para manejo de alertas
+
+## Funcionalidades
+- **Operaciones de Cuenta**: Añadir y quitar fondos.
+- **Simulación de Compras**: Comprar productos como Tortilla Española, Paella, Gambas al Ajillo, Croquetas, Fabada, Gazpacho y Pulpo al Olivo.
+- **Historial de Movimientos**: Ver el historial de transacciones realizadas.
+- **Saldo de Cuenta**: Ver el saldo actual de la cuenta.
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casa del Jamón - Home Banking</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="js/app.js"></script>
+</head>
+<body>
+    <img id="logo" src="imagenes/logo.png" alt="Logo de La Casa del Jamón">
+    <h1>La Casa del Jamón</h1>
+
+    <section>
+        <h2>Operaciones de Cuenta</h2>
+        <button id="addFundsBtn">Añadir Fondos</button>
+        <button id="removeFundsBtn">Quitar Fondos</button>
+    </section>
+    <section>
+        <h2>Simulación de Compras</h2>
+        <div class="producto">
+            <img src="imagenes/tortilla-espanola.jpg" alt="Tortilla Española" class="producto-img">
+            <p>Tortilla Española - $5,000</p>
+            <button id="buyTortillaBtn">Comprar Tortilla Española</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/paella.jpg" alt="Paella" class="producto-img">
+            <p>Paella - $10,000</p>
+            <button id="buyPaellaBtn">Comprar Paella</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/gambas-al-ajillo.jpg" alt="Gambas al Ajillo" class="producto-img">
+            <p>Gambas al Ajillo - $8,000</p>
+            <button id="buyGambasBtn">Comprar Gambas al Ajillo</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/croquetas.jpg" alt="Croquetas" class="producto-img">
+            <p>Croquetas - $4,000</p>
+            <button id="buyCroquetasBtn">Comprar Croquetas</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/fabada.jpg" alt="Fabada" class="producto-img">
+            <p>Fabada - $7,000</p>
+            <button id="buyFabadaBtn">Comprar Fabada</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/gaspacho.jpg" alt="Gazpacho" class="producto-img">
+            <p>Gaspacho - $3,000</p>
+            <button id="buyGazpachoBtn">Comprar Gazpacho</button>
+        </div>
+        <div class="producto">
+            <img src="imagenes/pulpo-al-olivo.jpg" alt="Pulpo al Olivo" class="producto-img">
+            <p>Pulpo al Olivo - $12,000</p>
+            <button id="buyPulpoBtn">Comprar Pulpo al Olivo</button>
+        </div>
+    </section>
+    <section>
+        <h2>Historial de Movimientos</h2>
+        <ul id="transactionHistory"></ul>
+    </section>
+    <section>
+        <h2>Saldo de Cuenta</h2>
+        <p id="saldo">Saldo: $50,000</p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+    "concepts": [
+        { "id": 1, "concepto": "Pago a proveedor de embutidos" },
+        { "id": 2, "concepto": "Compra de equipo de cocina" },
+        { "id": 3, "concepto": "Renta del local" },
+        { "id": 4, "concepto": "Venta de productos" },
+        { "id": 5, "concepto": "Depósito en cuenta" },
+        { "id": 6, "concepto": "Retiro en efectivo" }
+    ]
+}
